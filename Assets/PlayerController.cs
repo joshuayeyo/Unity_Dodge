@@ -39,7 +39,7 @@ public class PlayerController : MonoBehaviour {
         playerRigidBody.linearVelocity = newVelocity;
     }
 
-    void Die() {
+    public void Die() {
         // GameObject 비활성화
         gameObject.SetActive(false);
     }
